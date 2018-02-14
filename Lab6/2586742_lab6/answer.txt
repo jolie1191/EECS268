@@ -1,0 +1,3 @@
+1. marking visited poistions, it will not form a loop when resursion, otherwise, it will have infinite recursion and have no end.
+2. because we deal with every position in same way---checking whether it arrived ending location or arrived a empty space position, then we could use recursion to achieve this purpose.
+3.recursion is the process of repeating items in a self-similar way and it also is a depth-first search. And Iteration could use breadth first search. And when using breadth first search, the path cannot be saved in the maze. So in order to find the path when reaches the goal, we must construst a path using links stored in the path to the maze. That's more complicated than using depth-first search.
